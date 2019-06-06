@@ -21,7 +21,7 @@ set linebreak                  " Avoid wrapping lines in the middle of a word.
 set number                     " Line numbers
 set expandtab shiftround smartindent autoindent
 
-color desert
+color peachpuff
 set termguicolors
 hi CursorLine term=bold cterm=bold guibg=NONE gui=bold " Bold cursorline
 
@@ -78,3 +78,7 @@ vnoremap <tab> >gv
 vnoremap <s-tab> <gv
 nnoremap < <Nop>
 vnoremap < <Nop>
+
+" Compatible with jsx and tsx
+autocmd BufNewFile,BufRead *.jsx,*.tsx,*.ts set filetype=javascript
+
