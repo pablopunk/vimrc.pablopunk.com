@@ -2,5 +2,8 @@
   "alias": "vimrc",
   "builds": [
     { "src": "vimrc", "use": "@now/static" }
+  ],
+  "routes": [
+    { "src": "*", "dest": "/vimrc" }
   ]
 }
