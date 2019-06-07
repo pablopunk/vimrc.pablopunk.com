@@ -4,6 +4,6 @@
     { "src": "vimrc", "use": "@now/static" }
   ],
   "routes": [
-    { "src": "*", "dest": "/vimrc" }
+    { "src": "/*", "dest": "/vimrc" }
   ]
 }
