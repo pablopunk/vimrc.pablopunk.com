@@ -1,5 +1,5 @@
 {
-  "alias": "vimrc",
+  "alias": "vimrc.now.sh",
   "builds": [
     { "src": "vimrc", "use": "@now/static" }
   ],
