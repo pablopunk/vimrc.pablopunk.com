@@ -1,3 +1,6 @@
 {
-  "alias": "vimrc"
+  "alias": "vimrc",
+  "build": [
+    { "src": "vimrc", "use": "@now/static" }
+  ]
 }
