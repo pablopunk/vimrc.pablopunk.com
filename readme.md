@@ -1,4 +1,4 @@
-# [vimrc.now.sh](https://vimrc.now.sh)
+# [vimrc.pablo.pink](https://vimrc.pablo.pink)
 
 Instantly get a `vimrc` with minimal but powerful configuration.
 
@@ -7,11 +7,11 @@ Instantly get a `vimrc` with minimal but powerful configuration.
 You can either download it:
 
 ```bash
-$ wget vimrc.now.sh -O ~/.vimrc
+$ wget vimrc.pablo.pink -O ~/.vimrc
 ```
 
 Or directly load it in your vimrc with vim:
 
 ```viml
-:r !curl -sL vimrc.now.sh
+:r !curl -sL vimrc.pablo.pink
 ```
