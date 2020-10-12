@@ -1,4 +1,4 @@
-# [vimrc.pablo.im](https://vimrc.pablo.im)
+# [vimrc.pablopunk.com](https://vimrc.pablopunk.com)
 
 Instantly get a `vimrc` with minimal but powerful configuration.
 
@@ -7,11 +7,11 @@ Instantly get a `vimrc` with minimal but powerful configuration.
 You can either download it:
 
 ```bash
-$ wget vimrc.pablo.im -O ~/.vimrc
+$ wget vimrc.pablopunk.com -O ~/.vimrc
 ```
 
 Or directly load it in your vimrc with vim:
 
 ```viml
-:r !curl -sL vimrc.pablo.im
+:r !curl -sL vimrc.pablopunk.com
 ```
