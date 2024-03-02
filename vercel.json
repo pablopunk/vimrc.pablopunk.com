@@ -1,5 +1,5 @@
 {
   "routes": [
-    { "src": "/.*", "dest": "https://raw.githubusercontent.com/pablopunk/dotfiles/master/vim/vimrc.min" }
+    { "src": "/.*", "dest": "https://raw.githubusercontent.com/pablopunk/dotfiles/main/vim/.vimrc" }
   ]
 }
