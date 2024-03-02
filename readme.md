@@ -10,9 +10,8 @@ You can either download it:
 $ wget vimrc.pablopunk.com -O ~/.vimrc
 ```
 
-Or directly load it in your vim instance:
+Or directly load it in vim:
 
 ```viml
-:r !curl -sL vimrc.pablopunk.com
-:so
+:new | execute "read !curl -sL vimrc.pablopunk.com" | so | bd!
 ```
